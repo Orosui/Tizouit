@@ -7,9 +7,9 @@ body {
 
 /* Style de l'en-tête */
 header {
-    background-color: #333; /* Fond sombre */
-    color: white; /* Texte blanc */
-    padding: 15px; /* Ajoute de l'espace autour du texte */
+    background-color: #6B8E23; /* Vert feuille doux */
+    color: white;
+    padding: 15px;
 }
 
 /* Style du menu de navigation */
@@ -55,8 +55,7 @@ nav a {
 
 /* Style du footer */
 footer {
-    margin-top: 20px;
-    background-color: #333;
+    background-color: #6B8E23; /* Même couleur pour l'uniformité */
     color: white;
     padding: 10px;
 }
