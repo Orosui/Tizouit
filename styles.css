@@ -28,6 +28,31 @@ nav a {
     text-decoration: none; /* Supprime le soulignement des liens */
 }
 
+/* Style du texte d'introduction */
+.intro-text {
+    font-size: 1.2em;
+    color: #333;
+    margin: 20px auto;
+    max-width: 800px; /* Limite la largeur pour une meilleure lisibilité */
+    text-align: left; /* Alignement du texte à gauche */
+}
+
+/* Style du lien vers la galerie */
+.gallery-link {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.gallery-link a {
+    color: yellow;
+    text-decoration: none;
+}
+
+.gallery-link a:hover {
+    text-decoration: underline;
+}
+
 /* Style du footer */
 footer {
     margin-top: 20px;
