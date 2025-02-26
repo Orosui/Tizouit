@@ -60,3 +60,19 @@ footer {
     color: white;
     padding: 10px;
 }
+
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.zoom-image {
+    width: 80%;
+    max-width: 500px;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.zoom-image:hover {
+    transform: scale(1.05);
+}
