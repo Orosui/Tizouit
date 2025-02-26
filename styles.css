@@ -1,0 +1,37 @@
+/* Applique une police et un fond clair à toute la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+/* Style de l'en-tête */
+header {
+    background-color: #333; /* Fond sombre */
+    color: white; /* Texte blanc */
+    padding: 15px; /* Ajoute de l'espace autour du texte */
+}
+
+/* Style du menu de navigation */
+nav ul {
+    list-style: none; /* Supprime les puces de la liste */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Affiche les liens en ligne */
+    margin: 0 10px; /* Ajoute un espacement entre les éléments */
+}
+
+nav a {
+    color: white;
+    text-decoration: none; /* Supprime le soulignement des liens */
+}
+
+/* Style du footer */
+footer {
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
